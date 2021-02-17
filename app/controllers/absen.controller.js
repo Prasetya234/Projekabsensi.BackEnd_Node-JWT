@@ -29,7 +29,10 @@ exports.create = (req, res) => {
   
     // Create a Tutorial
     const absen = {
-      username: req.body.username
+      id_absen: req.body.id_absen,
+      username: req.body.username,
+      lat: req.body.lat,
+      lng: req.body.lng
     };
   
     // Save Tutorial in the database

@@ -13,7 +13,7 @@
     "authentication",
     "mysql"
   ],
-  "author": "riri",
+  "author": "prasetya",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
